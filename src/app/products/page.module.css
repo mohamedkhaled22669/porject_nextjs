@@ -1,0 +1,22 @@
+.desc {
+  overflow: overlay;
+  max-height: 64px;
+  padding-bottom: 2px;
+  word-wrap: break-word;
+  
+}
+.desc::-webkit-scrollbar {
+  width: 4px;
+}
+
+.desc::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+.desc::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+.desc::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
